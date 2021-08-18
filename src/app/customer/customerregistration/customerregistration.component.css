@@ -1,0 +1,67 @@
+body {
+    background-image: url("src\assets\images\bg4.jpg");
+    background-size: cover;
+    color: #fff;
+}
+
+body,
+.btn-reg {
+    background-color: #d3d3d3;
+    font-family: 'Montserrat', sans-serif;
+    color: #000;
+    font-size: 14px;
+    letter-spacing: 1px;
+}
+
+.active {
+    border-bottom: 2px solid #000;
+}
+
+.btn-reg {
+    background-color: #1161ed;
+    color: #FFF;
+    width: 100%;
+    padding: 10px 20px;
+    display: block;
+    height: 39px;
+    border-radius: 20px;
+    margin-top: 30px;
+    transition: all 0.5s ease-in-out;
+    border: none;
+    text-transform: uppercase;
+}
+
+.btn-reg:hover {
+    background: #4082f5;
+    box-shadow: 0px 4px 35px -5px #4082f5;
+    cursor: pointer;
+}
+
+.login {
+    height: 560px;
+    width: 589px;
+    margin: auto;
+    padding: 60px 60px;
+    box-shadow: 0px 30px 60px -5px #000;
+    vertical-align: middle;
+    border: 199px;
+    margin-top: 50px;
+    margin-right: 260px;
+}
+
+legend {
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.redirect {
+    color: blue;
+}
+
+.redirect:hover {
+    color: #3070A0;
+}
+.loginlink{
+    border-left: 10px;
+    justify-content: center;
+}
